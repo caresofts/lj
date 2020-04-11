@@ -1,0 +1,71 @@
+<html>
+   <head>
+	  <script src="jquery-3.3.1.js"></script>
+	        <script src="app.js" defer></script>
+
+      <style>
+         body {background-color: #202020;
+         color:white;
+         font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif
+         }
+         img {
+         float: left;
+         width: 50px;
+         }
+         h1 {
+         position: relative;
+         top: 10px;
+         left: 0px;
+         }
+         select
+         {border-radius:10px;
+         border-style: none;
+         }
+         input{
+         border-radius:10px;
+         border-style: none;
+         }
+         input[type=submit]
+         {
+         border-style: none;
+         background-color: white; /* Green */
+         }
+         input:focus {
+         border: 3px solid orange ;
+         }
+         select:focus
+         {
+         border: 3px solid orange ;
+         }
+      </style>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <form name="values" id="form">
+      <center>
+      <img src="icons/download.png">
+      <h1>JBHotspot</h1>
+      <br>
+      Wi-Fi Hostpot Name:<br> <input type="text" id="wifiname" name="wifiname" class="focusable focused">
+      <br/>
+      State:<br>
+<select name="state" id="state" class='focusable'>
+         <option value="true">On</option>
+         <option value="false">Off</option>
+      </select><br>
+      Security: <br>
+      <select name="security" id="security" class="focusable">
+         <option value="open">Open</option>
+         <option value="wpa">WPA/WPA2 PSK</option>
+      </select>
+      <br/>
+      Password: 
+      <br>
+      <input type="text" id="password" name="password" class="focusable"><br>
+      <input type="submit" name="submit" value="Save" class="focusable" onsubmit="app.js"/>
+	  <footer>
+	  Made by N'ayam Amarsh'e & Vivek Gautam
+	  </footer>
+   </body>
+</html>
+<br>

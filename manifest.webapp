@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+
+ "type": "certified",  "name": "JBHotspot",
+ "ime_default_softkey_bar": true,
+  "cursor": true,
+  "description": "A Wi-Fi Hotspot app for JioPhone",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/icons/download.png"
+  }, "permissions": { "settings":{"access":"readwrite"} }, 
+  "developer": {
+    "name": "Nayam",
+    "url": "http://atvxperience.com"
+  }
+}
